@@ -26,6 +26,7 @@ void    sort_3 (t_list **stack_a);
 void    sort_4 (t_list **stack_a, t_list **stack_b);
 void    sort_5 (t_list **stack_a, t_list **stack_b);
 void    radix_sort(t_list **stack_a, t_list **stack_b);
+void	ft_error();
 int ft_isnum(char *s);
 int ft_double (int temp, char *s, int i);
 int ft_listsize(t_list *head);

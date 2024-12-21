@@ -93,3 +93,9 @@ void    radix_sort(t_list **stack_a, t_list **stack_b)
         i++;
     }
 }
+
+void	ft_error()
+{
+	ft_putstr_fd("Error\n", 1);
+	exit(0);
+}

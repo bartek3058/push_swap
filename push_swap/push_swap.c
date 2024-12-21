@@ -58,11 +58,11 @@ void    ft_check_args(int argc, char **argv)
     {
         temp = ft_atoi(args[i]);
         if (!ft_isnum(args[i]))
-            ft_putstr_fd("Error1\n", 1);
-        else if (ft_double(temp, args[i], i))
-            ft_putstr_fd("Error2\n", 1);
+            ft_error();
+        else if (ft_double(temp, args[i], i) == 0)
+            ft_error();
         else if (temp < -2147483648 || temp > 2147483647)
-            ft_putstr_fd("Error3\n", 1);
+            ft_error();
         i++;
     }
     if (argc == 2)
