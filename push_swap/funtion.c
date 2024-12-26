@@ -26,7 +26,7 @@ int    sa(t_list **stack_a)
 {
     if(swap(stack_a) == -1)
         return (-1);
-    ft_putstr_fd("sa", 1);
+    ft_putstr_fd("sa\n", 1);
         return (0);
 }
 
