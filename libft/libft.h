@@ -6,7 +6,7 @@
 /*   By: brogalsk <brogalsk@student.42warsaw.p      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 10:17:46 by brogalsk          #+#    #+#             */
-/*   Updated: 2024/03/15 16:11:01 by brogalsk         ###   ########.fr       */
+/*   Updated: 2024/12/27 16:43:15 by brogalsk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 # include <unistd.h>
 # include <stdint.h>
 
-int		ft_atoi(const char *nptr);
+long	ft_atoi(const char *nptr);
 int		ft_isalpha(int c);
 int		ft_isascii(int s);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
